@@ -1,7 +1,7 @@
 function setTitle(element) {
   const text = element.innerText;
 
-  document.title = `${text} | E-Grociers`;
+  document.title = `${text} | E-Groceries`;
 }
 
 function toggleMenuButton() {
