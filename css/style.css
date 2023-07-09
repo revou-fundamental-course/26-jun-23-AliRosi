@@ -381,6 +381,25 @@ a:hover {
   color: black;
 }
 
+@media only screen and (max-width: 767px) {
+  .main-title {
+    font-size: 30px;
+    margin-bottom: var(--size-2);
+  }
+
+  .about-caption {
+    font-size: 14px;
+  }
+
+  .feature .subsection-title {
+    font-size: 14px;
+  }
+
+  .cta .container .section-title {
+    font-size: 23px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   :root {
     --container: calc(768px - calc(var(--size-6) * 2));
